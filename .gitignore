@@ -1,0 +1,31 @@
+# Python Virtual Environment
+.venv/
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# Environment
+.env
+
+# Storage (files are stored temporarily, not committed)
+storage/input/*
+storage/output/*
+!storage/input/.gitkeep
+!storage/output/.gitkeep
+
+# Models Cache (rembg)
+.u2net/
+
+# Mypy / type checking
+.mypy_cache/
+.dmypy.json
+
+# pytest
+.pytest_cache/
+
+# Distribution
+dist/
+build/
+*.egg-info/
